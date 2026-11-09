@@ -19,7 +19,11 @@ Select * from userDetails;
 
 
 ALTER TABLE userDetails
-ADD COLUMN Employments_Status VARCHAR(25) NOT NULL DEFAULT 'Unemployed'
+ADD COLUMN Employments_Status VARCHAR(25) NOT NULL DEFAULT 'Unemployed';
+
+Update userDetails
+SET Employments_Status = 'Employed'
+WHERE ID = 001;
 
 
 
