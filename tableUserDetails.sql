@@ -18,5 +18,9 @@ Values (001, 'Siyabonga', 'Ngobeni', 'Jakal Creek', '2000-05-02', 'Male', +27784
 Select * from userDetails;
 
 
+ALTER TABLE userDetails
+ADD COLUMN Employments_Status VARCHAR(25) NOT NULL DEFAULT 'Unemployed'
+
+
 
 	   
