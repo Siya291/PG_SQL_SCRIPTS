@@ -25,6 +25,7 @@ Update userDetails
 SET Employments_Status = 'Employed'
 WHERE ID = 001;
 
-
+DELETE FROM userDetails
+WHERE ID = 004
 
 	   
